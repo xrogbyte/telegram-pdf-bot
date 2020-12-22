@@ -2,7 +2,7 @@ import gettext
 
 from telegram.ext import Filters
 
-t = gettext.translation("pdf_bot", localedir="locale", languages=["en"])
+t = gettext.translation("pdf_bot", localedir="locale", languages=["ar_SA"])
 _ = t.gettext
 
 TEXT_FILTER = Filters.text & ~Filters.command
